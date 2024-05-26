@@ -1,0 +1,45 @@
+---
+
+import HeroSection from "../components/HeroSection.astro";
+
+import ModelS from "../components/Competitividad.astro";
+
+import ModelX from "../components/Perspectivas.astro";
+import ModelY from "../components/Inicio.astro";
+import Tienda from "../components/Tienda.astro";
+import Layout from "../layouts/Layout.astro";
+import LandingHeader from "../components/Header.astro";
+import Inicio from "../components/Inicio.astro";
+import Servicios from "../components/Seguimiento.astro";
+import Ayuda from "../components/Ayuda.astro";
+---
+
+<Layout title="DreamIn">
+  <LandingHeader />
+
+  <main
+    class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth"
+  >
+    <div class="snap-center">
+      <HeroSection />
+    </div>
+    <div class="snap-center">
+      <Inicio />
+    </div>
+    <div class="snap-center">
+      <Servicios />
+    </div>
+    <div class="snap-center">
+      <ModelS />
+    </div>
+    <div class="snap-center">
+      <ModelX />
+    </div>
+    <div class="snap-center">
+      <Tienda />
+    </div>
+    <div class="snap-center">
+      <Ayuda />
+    </div>
+  </main>
+</Layout>

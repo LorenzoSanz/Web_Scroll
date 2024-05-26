@@ -1,0 +1,28 @@
+---
+import Section from "./Section.astro"
+---
+
+<Section
+  title="Tienda Oficial"
+  subtitle="Energía para todos"
+  color="black"
+  id="tienda"
+>
+  <div slot="footer" class="gap-x-6 flex mx-auto">
+    <a
+      class="border-[3px] border-gray-800 bg-gray-800 text-sm rounded font-medium text-white px-16 py-2 inline-block transition-colors hover:border-gray-500 hover:bg-gray-500"
+      href="#"
+    >
+      Saber más</a
+    >
+  </div>
+
+  <img
+    slot="background"
+    alt="paisaje abstracto anaranjado"
+    class="h-full w-full object-cover object-center"
+    src="tarifas.jpg"
+  />
+</Section>
+
+
